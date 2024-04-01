@@ -11,7 +11,7 @@ fn main() {
         println!("5. Sair do programa");
         println!("Digite sua opção: ");
         println!("-----------------------");
-        io::stdout().flush().unwrap();
+        io::stdout().flush().unwrap(); // é por conta do loop, para limpar o buffer de saída
 
         let mut opcao = String::new();
         io::stdin().read_line(&mut opcao).unwrap();
