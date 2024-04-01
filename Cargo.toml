@@ -1,5 +1,5 @@
 [workspace]
-members = [ "exercicio_aula06"] 
-default-members = ["exercicio_aula06"] 
+members = ["exercicio_aula06", "exercicio_aula08"] 
+default-members = ["exercicio_aula08"] 
 resolver = "2"
 # executar ou buildar 1 proj. pelo name do pacote, ex: -> cargo build --bin aula4 
